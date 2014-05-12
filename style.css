@@ -1,0 +1,236 @@
+
+/*GLOBAL STYYLE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*Teal-main- color
+HEX# 25D493*/
+
+	@font-face { 
+		font-family:'DymaxionScript';
+		src: url('fonts/h2/DymaxionScript-webfont.eot');
+		src: url('fonts/h2/DymaxionScript-webfont.eot?iefix') format('eot'),
+	     url('fonts/h2/DymaxionScript-webfont.woff') format('woff'),
+	     url('fonts/h2/DymaxionScript-webfont.ttf') format('truetype'),
+	     url('fonts/h2/DymaxionScript-webfont.svg#webfont') format('svg');
+}
+
+
+
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;}
+
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center; }
+
+
+
+
+h1 { font-family:"DymaxionScript", helvetica, arial, sans-serif; 
+	/*text-shadow: 5px 5px 5px black;*/
+	 font-size: 130px;
+	 opacity: 0.7;
+	
+}
+
+
+
+
+
+
+/*HEADER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+header { 
+		background: url(images/liftline.jpg);
+		background-size: cover;
+		height:650px;
+		max-width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed; 
+		margin: 0px;
+		padding: 2px 0 240px 0;
+
+
+}
+
+header h1  {
+			color:white; 
+			padding-bottom: none;
+			max-width: 100%;
+		}
+
+
+/*NAV BAR!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+nav { width: 100%;
+	  height: 55px;
+	  background: black;
+     position: fixed;
+     z-index: 10;
+    
+}
+	 
+
+	
+  
+    
+
+
+
+nav ul {
+	 	margin: auto;
+		padding: 15px 15px;
+		
+
+}
+
+nav ul li {
+		list-style-type: none;
+		display: inline; 
+		text-align: center;
+
+		
+
+
+}
+
+nav ul li a {
+		text-decoration: none;
+		padding: 0px 40px;
+		font-family: "DymaxionScript", helvetica, arial, sans-serif; 
+		color: white;
+		opacity: 0.7;
+	 	font-size: 30px;
+	 	 opacity: 0.7;
+	 
+
+}
+
+nav ul li a:hover {
+
+	
+	font-size: 30px;
+	color:#e0a23a;
+}
+
+
+
+
+
+
+
+
+/*ABOUT SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.about { 
+	width: 100%;
+	height:650px;
+	padding: none;
+	background: url(images/darkwood.png);
+
+}
+
+
+
+.photobox {
+	padding-top: 120px;
+
+}
+
+.photobox p {
+	font-family: helvetica, arial, sans-serif; 
+	color: white;
+	font-size: 24px;
+	margin: 20px 0px;
+	padding: 5px 100px;
+	
+}
+
+.photobox .second {
+	font-family: helvetica;
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	
+
+}
+
+
+.photobox img {e
+
+	height: 200px;
+	width: 200px;
+	border: 10px #41e492 hidden;
+	border-radius:100px;
+	border: 2.2px solid #25D493;
+	
+
+	
+}
+
+/*WORK SECTION!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.work { margin: auto;
+		background: url(images/snow.png);
+		height:650px;
+		width: 100%;
+	}
+
+.work h2 { margin: 0px 0px;
+		  padding: 45px 0px;
+		  font-family: "DymaxionScript", helvetica, arial, sans-serif; 
+		  font-size: 90px;
+		  color: #25D493;
+
+		}
+
+
+
+ .gearbox img {
+ 			float: left;
+ 			margin: 90px 120px;
+ }
+
+ 
+
+
+
+.responsivebox img {
+ 			
+ 			margin: 80px 0px;
+ }
+
+
+
+ .uxbox img {
+ 			float: right;
+ 			margin: 80px 135px;
+ }
+
+
+/**FOOTER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+ 
+
+.footer { 
+		width: 100%;
+		height: 650px;
+		background: url(images/darkwood.png);
+		  }
+
+.footer h2 {
+			margin: 0px 0px;
+			padding: 90px 0px;
+			font-family: "DymaxionScript", helvetica, arial, sans-serif; 
+			color: white;
+			font-size: 90px;
+
+}
+
+.footer a { margin-bottom: 140px;
+			padding: 0px 15px;}
+	
+	}
+
+
+
